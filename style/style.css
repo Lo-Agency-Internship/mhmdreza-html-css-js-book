@@ -31,13 +31,20 @@ main
     padding:20px 20px 20px 20px;
     background-color:#A2D5AB ;
     float: left;
+    border-top-left-radius:25px ;
+    border-bottom-left-radius: 40px;
+    margin-left: 20px;
 }
 
 .rightsec
 {
     height: 500px;
-    width: 100%;
-    background-color:black ;
+    width: 57%;
+    float: left;
+    background-color:#EBD8C3 ;
+    margin-right: 20px;
+    border-top-right-radius:25px ;
+    border-bottom-right-radius: 40px;
 }
 
 .mainul 
@@ -103,7 +110,7 @@ li
 {
 
 display: block;
-background-color: blue;
+
 border-radius: 25px;
 }
 
