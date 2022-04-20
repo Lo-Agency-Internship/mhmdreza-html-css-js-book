@@ -1,0 +1,16 @@
+.btn-q
+{
+    border: none;
+    width: 80%;
+    height: 28px;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color:#CDBE78 ;
+}
+
+.btn-q:hover 
+{
+
+    background-color: #A1B57D;
+}
