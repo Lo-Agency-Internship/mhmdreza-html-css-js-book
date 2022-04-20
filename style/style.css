@@ -65,7 +65,7 @@ display: none;
  text-align: center;
  position: absolute;
  z-index: 100;
- margin-top: 19px;
+ margin-top: 15px;
  /* border-radius: 25px; */
  /* text-decoration: none; */
 
@@ -73,7 +73,7 @@ display: none;
 
 .mainli
 {
-    padding: 21px;
+    padding: 18px;
     width:  95%;
     height: 63px;
     margin: 15px 15px 0 15px;
@@ -132,11 +132,12 @@ width: 91%;
 .def 
 {
 
-    padding: 10px;
+    padding: 20px;
     /* display: none; */
     width: 100%;
     height: 70px;
     list-style-type: none;
+    font-weight: 600;
 }
 
 .thirdq-def
@@ -147,7 +148,7 @@ width: 91%;
 p
 {
     font-size: 18px;
-    /* margin: 5px; */
+    margin: 10px;
 }
 
 
