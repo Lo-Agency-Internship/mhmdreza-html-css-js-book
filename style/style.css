@@ -20,12 +20,15 @@ p{
 .main-part {
     display: flex;
     width: 100%;
+   
 }
 
 
 .left-section {
-    width: 30%;
-    background-color: gray;
+    padding-top: 20px;
+    width: 28%;
+    height: 710px;
+    background-color: #A0BCC2;
 }
 
 .left-section>h2 {
@@ -54,27 +57,29 @@ a>h3 {
 }
 
 .HTML-list {
-    padding-left: 40px;
+    padding-left: 30px;
     display: none;
+    padding-right: 40px;
+    margin-top: 19px;
 }
 
 
 .HTML-content {
-    background-color: black;
+    background-color: #DAE5D0;
     margin: 10px 0 10px 0;
     padding: 10px;
-    color: #E0D8B0;
+    color: black;
     border-radius: 15px;
 }
 
 .HTML-list-q {
-    background-color: black;
+    background-color: #DAE5D0;
     margin: 10px 0 10px 0;
-    color: #E0D8B0;
-
+    color: black;
+    border-top: 1px solid gray;
+    padding-top:10px ;
+    padding-left: 8px;
 }
-
-
 
 
 
@@ -97,7 +102,9 @@ a>h3 {
 
 .main-section {
     background-color: #DAE5D0;
-    width: 70%;
+    width: 73%;
+    height: 710px;
+    padding-top: 20px;
 }
 
 .main-section-head {
@@ -107,15 +114,15 @@ a>h3 {
 .main-section-main {
     background-color: #A0BCC2;
     margin: 20px 10px;
-    padding: 20px 10px;
+    padding: 20px 15px;
     border-radius: 15px;
 
 }
 
 .HTML-parts {
     margin-top: 30px;
-    border-top: 1px solid gray ;
-    padding-top: 20px;
+    border-bottom: 1px solid gray ;
+    padding-bottom: 20px;
 }
 
 .HTML-parts-in {
