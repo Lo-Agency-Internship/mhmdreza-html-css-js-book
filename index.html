@@ -1,61 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
-    <title>HTML basic</title>
-    <link rel="stylesheet" href="style/morestyle.css">
+    <title>My library</title>
 </head>
+
 <body>
+    <main class="main-part">
 
 
-    <header></header>
-
-
- <!-- start main -->
-    <main id="main">
-        <!-- left side of main  -->
-        <section class="leftsec">
-            <ul class="mainul">
-                <li class="mainli " > <button class="btn-q" onclick="document.getElementById('firstq').style.display = 'block';">What is HTML?</button> </li>
-                <li class="mainli"> <button class="btn-q" onclick="document.getElementById('secq').style.display = 'block';">What is a basic structure of an HTML document?</button></li>
-
-
-                     <li class="mainli bar"> <button class="btn-q" onclick="document.getElementById('thirdq').style.display = 'block';">What are the tags/elements that you've learned so far? </button>
-                        <ul class="firstul">
-                           <li class="firstli"><button class="btn-q" onclick="document.getElementById('thirdq-first').style.display = 'block';">How are they written?</button></li>
-                           <li class="firstli"> <button class="btn-q" onclick=" document.getElementById('thirdq-sec').style.display = 'block';">What are their important attributes?</button></li>
-                           <li class="firstli"><button class="btn-q" onclick=" document.getElementById('thirdq-third').style.display = 'block';">How can they be used</button></li>
-                        </ul>
-                    </li>
-               
-
+        <div class="left-section">
+            <h2>Question</h2>
+            <ul class="all-list">
+                <!-- everythings about HTML and CSS -->
+                <li class="list-HTML-CSS">
+                    <a href="">
+                        <h3>HTML & CSS</h3>
+                    </a>
+                    <ol class="all-list-HTML-CSS">
+                        <a href="#HTML-part1">
+                            <li class="HTML-content" id="number1">What is HTML?</li>
+                        </a>
+                        <a href="#HTML-part2">
+                            <li class="HTML-content" id="number2">What is a basic structure of an HTML document?</li>
+                        </a>
+                       <a href="#HTML-part3"> <li class="HTML-content" id="number3">What are the tags/elements that you've learned so far?
+                            <ol class="HTML-list">
+                                <a href="#HTML-part3-1">
+                                    <li class="HTML-list-q">How are they written?</li>
+                                </a>
+                                <a href="#HTML-part3-2">
+                                    <li class="HTML-list-q">What are their important attributes?</li>
+                                </a>
+                                <a href="#HTML-part3-3">
+                                    <li class="HTML-list-q">How can they be used</li>
+                                </a>
+                            </ol>
+                        </li>
+                    </a>
+                    </ol>
+                </li>
 
 
             </ul>
-        </section>
 
-        <!-- right side of main  -->
-        <section class="rightsec">
-            <section class="all-of-def">
-                <p class="def" id="firstq">1) HTML --> Hyper Text Markup Language HTML is the standard markaup language for web page nad you can creat your oun website .HTML describes the structure of a web page  </p>
-                <p class="def" id="secq">2) HTML document start with (DOCTYPE html) after that we have head tag that define some info about webpage and we can link CSS files to our website in head after that we have body which we can see when open a website in body we use some element with attribut to describe more </p> 
-                <p class="def" id="thirdq">3) I have learned some tags like p ,form ,h(1,2,...,6) ,table ,img ...</p>
-                <p class="thirdq-def" id="thirdq-first">1) some tags use by opening element and some tags have just opening element that we say empty tags </p> 
-                <p class="thirdq-def" id="thirdq-sec"> 2) src name value style class id are some important attribute that i have learnd .</p>
-                <p class="thirdq-def" id="thirdq-third" >3)style --> we use this to add CSS code we can use this in 3 type (internal external and inline)<br>src --> we put links to change our page or fine a file that we want<br>id --> use specific name for our elements <br> name and value --> for example we use these for forms </p>
-                   
+        </div>
 
-        </section>
+
+        <div class="main-section">
+            <h2 class="main-section-head">Definitien</h2>
+            <div class="main-section-main">
+                <div class="HTML-parts" id="HTML-part1">
+                    <p>
+                        HTML --> Hyper Text Markup Language
+                        HTML is the standard markaup language for web page nad you can creat your oun website
+                        HTML describes the structure of a web page
+                    </p>
+                </div>
+              
+                <div class="HTML-parts" id="HTML-part2">
+                    <p>
+                        HTML document start with (DOCTYPE html) after that we have head tag that define some info about
+                        webpage and we can link CSS files to our website in head
+                        after that we have body which we can see when open a website in body we use some element with
+                        attribut to describe more comfortable
+                    </p>
+                </div>
+                
+                <div class="HTML-parts" id="HTML-part3">
+                    <p>
+                        I have learned some tags like p ,form ,h(1,2,...,6) ,table ,img ...
+                    </p>
+                    <div class="HTML-parts-in" id="HTML-part3-1">
+                        <p>
+                            some tags use by opening element and some tags have just opening element that we say empty
+                            tags
+                        </p>
+                    </div>
+                    <div class="HTML-parts-in" id="HTML-part3-2">
+                        <p>
+                            src name value style class id are some important attribute that i have learnd .
+                        </p>
+                    </div>
+                    <div class="HTML-parts-in" id="HTML-part3-3">
+                        <p>
+                            style --> we use this to add CSS code we can use this in 3 type (internal external and
+                            inline)
+                            <br>
+                            src --> we put links to change our page or fine a file that we want
+                            <br>
+                            id --> use specific name for our elements
+                            <br>
+                            name and value --> for example we use these for forms
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
     </main>
-<!-- finish main  -->
-
-
-
-    <footer></footer>
-  
 </body>
+
 </html>
-    
